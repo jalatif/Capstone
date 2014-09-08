@@ -1,0 +1,116 @@
+JFDML JFormDesigner: "5.1.0.2.64" Java: "1.7.0_21" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jgoodies.forms.layout.FormLayout ) {
+			"$columnSpecs": "default, labelcompgap, default, labelcompgap, default, labelcompgap, default, labelcompgap, default, labelcompgap, default, labelcompgap, default, labelcompgap, default, labelcompgap, default, labelcompgap, default"
+			"$rowSpecs": "default, linegap, default, linegap, default, linegap, default, linegap, default, linegap, default, linegap, default, linegap, default"
+		} ) {
+			name: "this"
+			"defaultCloseOperation": 2
+			addEvent( new FormEvent( "java.awt.event.WindowListener", "windowClosed", "thisWindowClosed", true ) )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer2"
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 11
+				"gridHeight": 3
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "bUp"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/res/Up.png" )
+				"borderPainted": false
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 11
+				"gridY": 5
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer1"
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridY": 7
+				"gridWidth": 5
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "bLeft"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/res/Left.png" )
+				"borderPainted": false
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 9
+				"gridY": 7
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "bStop"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/res/Stop.png" )
+				"borderPainted": false
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 11
+				"gridY": 7
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "bRight"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/res/Right.png" )
+				"borderPainted": false
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 13
+				"gridY": 7
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.HSpacer" ) {
+				name: "hSpacer2"
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 16
+				"gridY": 7
+				"gridWidth": 4
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "bDown"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/res/Down.png" )
+				"borderPainted": false
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 11
+				"gridY": 9
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "bClean"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/res/Clean.png" )
+				"borderPainted": false
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 9
+				"gridY": 11
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "bGun"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/res/Gun.png" )
+				"borderPainted": false
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 11
+				"gridY": 11
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "bFire"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/res/Fire.png" )
+				"borderPainted": false
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "buttonMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 13
+				"gridY": 11
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.VSpacer" ) {
+				name: "vSpacer3"
+			}, new FormLayoutConstraints( class com.jgoodies.forms.layout.CellConstraints ) {
+				"gridX": 11
+				"gridY": 13
+				"gridHeight": 3
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 545, 450 )
+		} )
+	}
+}
